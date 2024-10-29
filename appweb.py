@@ -13,7 +13,7 @@ elif page == "Acerca de":
 
 if page == "ventas":
     st.title("Ventas")    
-    st.write("Ventas")
+    st.write("De Venta Aqui")
 elif page == "ChatBot":
     st.title("ChatBot")
     st.write("Bienvenidos")
