@@ -1,7 +1,7 @@
 import streamlit as st
 
 
-home = st.page(
+home = st.Page(
     page = "Vistas/home.py",
     title = "Incio",
     icon = "🏠",
@@ -9,19 +9,19 @@ home = st.page(
     default = True,
 )
 
-acerca_de = st.page(
+acerca_de = st.Page(
     page = "Vistas/acerca_de.py",
     title = "Acerca de",
     icon = "👤",
 )
 
-ventas = st.page(
+ventas = st.Page(
     page = "vistas/ventas",
     title = "ventas",
     icon = "🛒",
 )
 
-chatbot = st.page(
+chatbot = st.Page(
     page = "vistas/chatbot.py",
     title = "ChatBot",
     icon = "🤖",
