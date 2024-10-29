@@ -37,3 +37,5 @@ pg = st.navigation(
 
 st.logo("img/ChatBot.png")
 st.sidebar.markdown("Elaborador con ❤️ por [Streamlit] (https://streamlit.io/gallery)")
+
+st.write("Juster")
