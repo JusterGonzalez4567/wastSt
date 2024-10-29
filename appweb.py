@@ -1,10 +1,7 @@
 import streamlit as st
 
-
-import streamlit as st
-
 # Crear un menú de navegación en la barra lateral
-page = st.sidebar.selectbox("Navegación", ["Inicio", "Acerca de"])
+page = st.sidebar.selectbox("Navegación", ["Inicio", "Acerca de","Ventas","ChatBot"])
 
 # Lógica de navegación entre páginas
 if page == "Inicio":
